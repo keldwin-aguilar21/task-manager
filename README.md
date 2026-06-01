@@ -23,37 +23,29 @@ A simple task management application built with Laravel, Blade, SQLite, and Lara
 
 ## Installation
 
-### 1. Install Dependencies
+### 1. Clone the Repository
+
+```bash
+git clone https://gitlab.com/keldz/task-manager.git
+cd task-manager
+```
+### 2. Install Dependencies
 
 ```bash
 composer install
 npm install
 ```
 
-### 2. Create Environment File
+### 3. Create Environment File
 
 ```bash
 cp .env.example .env
 ```
 
-### 3. Generate Application Key
+### 4. Generate Application Key
 
 ```bash
 php artisan key:generate
-```
-
-### 4. Create SQLite Database
-
-Linux / macOS:
-
-```bash
-touch database/database.sqlite
-```
-
-Windows:
-
-```cmd
-type nul > database\database.sqlite
 ```
 
 ### 5. Configure Database
