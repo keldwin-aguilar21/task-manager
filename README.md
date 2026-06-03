@@ -26,7 +26,7 @@ A simple task management application built with Laravel, Blade, SQLite, and Lara
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://gitlab.com/keldz/task-manager.git](https://github.com/keldwin-aguilar21/task-manager.git)
+git clone https://github.com/keldwin-aguilar21/task-manager.git
 cd task-manager
 ```
 ### 2. Install Dependencies
